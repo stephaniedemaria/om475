@@ -1,0 +1,10 @@
+body { background-color: #000000;
+	color: #ffffff; }
+body { font-family: Arial, Helvetica, sans-serif; }
+h1 { background-color: #000000;
+	color: #cccccc; }
+h1 { font-family: "Times New Roman"; }
+nav { background-color: #CCCCCC;
+	color: #ffffff; }
+.news { color: #ff0000; }
+.news { font-style: italic; }

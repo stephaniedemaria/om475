@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Survey</title>
+<meta charset="utf-8">
+<style>
+body { background-color:#3fd4e5; }
+</style>
+</head>
+<body>
+<header>
+	<h1>Music Survey<h1>
+</header>
+<p>
+<form name="Survey" method="post">
+<label for="myEmail">E-mail:</label>
+<input type="email" name="myEmail" id="myEmail"> <br><br>
+<label for="Name">Name:</label>
+<input type="text" name="Name" id="Name"> <br><br>
+Select your favorite types of music: <br>
+<input type="checkbox" name="pop" id="pop" value="yes"> Pop <br>
+<input type="checkbox" name="classical" id="classical" value="yes"> Classical <br>
+<input type="checkbox" name="rock" id="rock" value="yes"> Rock <br>
+<input type="checkbox" name="folk" id="folk" value="yes"> Folk <br>
+<input type="checkbox" name="Rap" id="Rap" value="yes"> Rap <br>
+<input type="checkbox" name="other" id="other" value="yes"> other <br>
+<br><br>
+Select how often you purchase music CDs:<br>
+<input type="radio" name ="CD" id="weekly" value="weekly"> Weekly<br>
+<input type="radio" name ="CD" id="few" value="few"> A few CDs each year<br>
+<input type="radio" name ="CD" id="monthly" value="monthly"> Monthly<br>
+<input type="radio" name ="CD" id="never" value="never"> Never<br>
+<br><br>
+
+<select size="3" name="location" id="location">
+	<option>Select the locations you listen to music:</option>
+	<option value="At home">At Home</option>
+	<option value="Car">Car</option>
+	<option value="Anywhere">Anywhere</option>
+</select>
+<br><br>
+What role does music play in your life?<br>
+<textarea name="role" id="role" cols="40" rows="5"></textarea><br>
+<input type="submit">
+<input type="reset">
+</form>
+</p>
+</body>
+</html>

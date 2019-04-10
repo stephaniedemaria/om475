@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Me</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { background-color:#F5CC7B; 
+	background-image: url('images/header.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100% 18%;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 15px;
+}
+.right {
+	float: right;
+	padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+hr {
+	border-style: solid;
+}
+</style>
+<body>
+<br><br><br><br><br><br>
+<ul>
+	<li><a href="Project_Home.html">Home</a></li>
+	<li><a href="NIU_Accomplishments.html">NIU Accomplishments</a></li>
+	<li><a href="Contact_Me.html">Contact Me</a></li>
+	<li><a href="Project_Resume.html">Resume</a></li>
+	<li><a href="Project_About.html">About Me</a></li><a name="top" />
+</ul>
+<br>
+<marquee behavior="scroll" direction="right">
+	<h1>About Me</h1>
+</marquee>
+<hr>
+<div class="row">
+  <div class="column">
+<ul>
+	<li><a href="Goals.html">Future Goals</a></li>
+	<li><a href="Hobbies.html">Interests & Hobbies</a></li>
+</ul><br>
+	<img src="images/NIU.png" alt="NIU Husky" width="400" height="400">
+
+  </div>
+  <div class="colunm">
+	<p>
+	<br>
+	My name is Stephanie DeMaria and I am 22 years old.<br>
+	I live in plainfield, IL (right next to joliet, IL) and I go to school at NIU.<br>
+	To the right an image map is displayed so you can learn more about where I am from.<br>
+	Please click on the DeKalb point to see where I go to school <br>and click on the Joliet point to see my hometown.
+	</p>
+  <div class="right">
+	<img src="images/map.jpg" width="600" height="500" alt="USA" usemap="#homemap">
+	<map name="homemap">
+	  <area shape="rect" coords="350,100,150,150" alt="Joliet" href="images/plainfield.png">
+	  <area shape="rect" coords="250,0,400,100" alt="DeKalb" href="images/dekalb.jpg">
+	</map>
+  </div></div>
+</div>
+<footer>
+<a href="#top">Return to top of page</a>
+</footer>
+</body>
+</html>

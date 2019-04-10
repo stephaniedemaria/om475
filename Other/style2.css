@@ -1,0 +1,19 @@
+
+.column {
+	float: left;
+	width: 45%;
+	padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+	float: left;
+}
+.form {
+	float: right;
+	padding: 15px 300px;
+	border-style: solid;
+}
